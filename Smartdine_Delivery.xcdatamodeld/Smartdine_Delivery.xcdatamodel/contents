@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15C50" minimumToolsVersion="Automatic">
+    <entity name="History" syncable="YES">
+        <attribute name="caddress1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distanceToDestinastion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hotelName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="radyTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Orders" syncable="YES">
+        <attribute name="caddress1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="caddress2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ccity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clattitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clongittude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="couponId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cphone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cpin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cstate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distanceToDestination" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distanceToHotel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="haddress1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="haddress2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hcity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hlattitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hlongittude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hotelName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hphone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hpin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hstate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="readyTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="History" positionX="279" positionY="369" width="128" height="135"/>
+        <element name="Orders" positionX="279" positionY="216" width="128" height="435"/>
+    </elements>
+</model>
